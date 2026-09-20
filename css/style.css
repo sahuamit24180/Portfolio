@@ -5,6 +5,7 @@
   font-family: "Poppins", sans-serif;
   list-style: none;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -322,11 +323,25 @@ body {
 }
 
 /* Progress bar widths */
-.progress-line.html span { width: 90%; }
-.progress-line.css span { width: 85%; }
-.progress-line.java span { width: 70%; }
-.progress-line.python span { width: 50%; }
-.progress-line.react span { width: 80%; }
+.progress-line.html span {
+  width: 90%;
+}
+
+.progress-line.css span {
+  width: 85%;
+}
+
+.progress-line.java span {
+  width: 70%;
+}
+
+.progress-line.python span {
+  width: 50%;
+}
+
+.progress-line.react span {
+  width: 80%;
+}
 
 .progress-line span::before {
   content: "";
@@ -409,21 +424,34 @@ body {
   stroke-linecap: round;
 }
 
-.path-1 { animation: animate-path1 1s 1s linear forwards; }
-.path-2 { animation: animate-path2 1s 1s linear forwards; }
-.path-3 { animation: animate-path3 1s 1s linear forwards; }
-.path-4 { animation: animate-path4 1s 1s linear forwards; }
+.path-1 {
+  animation: animate-path1 1s 1s linear forwards;
+}
+
+.path-2 {
+  animation: animate-path2 1s 1s linear forwards;
+}
+
+.path-3 {
+  animation: animate-path3 1s 1s linear forwards;
+}
+
+.path-4 {
+  animation: animate-path4 1s 1s linear forwards;
+}
 
 /* ================= PROJECTS ================= */
-#project{
- margin-bottom: 35px;  
+#project {
+  margin-bottom: 35px;
 }
+
 .main-text {
   padding-top: 50px;
   margin-top: 70px;
 }
+
 .main-text h5 {
- margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .portfolio-content {
@@ -466,7 +494,7 @@ body {
   align-items: center;
   text-align: center;
   border-radius: 8px;
-  background: linear-gradient(rgba(0,0,0,0.1), #0ef);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), #0ef);
   overflow: hidden;
   transition: height 0.5s;
 }
@@ -506,66 +534,77 @@ body {
 }
 
 /* ====================Contact Section======================== */
-#Contact{
-margin-top: 30px;
-padding: 8px 25px;
-display: flex;
-justify-content: space-between;
+#Contact {
+  margin-top: 30px;
+  padding: 8px 25px;
+  display: flex;
+  justify-content: space-between;
 }
-.form input{
+
+.form input {
   display: block;
   margin: 5px 0px;
   padding: 8px 5px;
   border-radius: 8px;
   width: 500px;
-  background-color: rgb(179, 179, 179);
+  background-color: rgb(255 255 255);
 }
-.form textarea{
-  background-color: rgb(179, 179, 179);
+
+.form textarea {
+  background-color: rgb(255 255 255);
   display: block;
   padding: 8px 5px;
   border-radius: 8px;
   width: 500px;
 }
+
 /* ==================footer========================= */
-footer{
+footer {
   background-color: aqua;
   padding: 8px 0px;
   text-align: center;
   font-size: 1.2rem;
 }
-footer p{
-  color: black; 
+
+footer p {
+  color: black;
   font-weight: 600;
 }
+
 /* =====================================contact text================================= */
-#Contact .Contact-text{
+#Contact .Contact-text {
   width: 400px;
 
 }
-#Contact .Contact-text .Contact-list{
+
+#Contact .Contact-text .Contact-list {
   margin: 15px 0px;
   font-size: 1.2rem;
 }
-#Contact .Contact-text .Contact-list li{
+
+#Contact .Contact-text .Contact-list li {
   color: white;
   padding: 5px 5px;
   text-decoration: none;
 }
-#Contact .Contact-text .Contact-list i{
+
+#Contact .Contact-text .Contact-list i {
   color: aqua;
 }
-#Contact .Contact-text .Contact-list a{
+
+#Contact .Contact-text .Contact-list a {
   color: white;
   padding: 5px 5px;
   text-decoration: none;
 }
-#Contact .Contact-text p{
+
+#Contact .Contact-text p {
   color: aliceblue;
   font-weight: 500;
   line-height: 1.7rem;
   font-size: 18px;
 }
+
 /* ================= UTILITIES ================= */
 span {
   color: aqua;
@@ -608,45 +647,99 @@ span {
 
 /* ================= ANIMATIONS ================= */
 @keyframes slideright {
-  0% { transform: translateX(-100px); opacity: 0; }
-  100% { transform: translateX(0); opacity: 1; }
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 @keyframes slideleft {
-  0% { transform: translateX(100px); opacity: 0; }
-  100% { transform: translateX(0); opacity: 1; }
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 @keyframes slidetop {
-  0% { transform: translateY(100px); opacity: 0; }
-  100% { transform: translateY(0); opacity: 1; }
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 @keyframes slidebottom {
-  0% { transform: translateY(-100px); opacity: 0; }
-  100% { transform: translateY(0); opacity: 1; }
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 @keyframes showtext {
-  100% { opacity: 1; }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes animate {
-  100% { transform: scaleX(1); }
+  100% {
+    transform: scaleX(1);
+  }
 }
 
 @keyframes animate-bar {
-  100% { stroke-dashoffset: -1; }
+  100% {
+    stroke-dashoffset: -1;
+  }
 }
 
-@keyframes animate-path1 { 100% { stroke-dashoffset: 50; } }
-@keyframes animate-path2 { 100% { stroke-dashoffset: 175; } }
-@keyframes animate-path3 { 100% { stroke-dashoffset: 125; } }
-@keyframes animate-path4 { 100% { stroke-dashoffset: 200; } }
-.icons8-c{ 
-    display: inline-block;
-    width: 30px;
-    height: 40px;
-    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgNDggNDgiIHdpZHRoPSI0OHB4IiBoZWlnaHQ9IjQ4cHgiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjMDA1NDlkIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMi45MDMsMy4yODZjMC42NzktMC4zODEsMS41MTUtMC4zODEsMi4xOTMsMCBjMy4zNTUsMS44ODMsMTMuNDUxLDcuNTUxLDE2LjgwNyw5LjQzNEM0Mi41ODIsMTMuMSw0MywxMy44MDQsNDMsMTQuNTY2YzAsMy43NjYsMCwxNS4xMDEsMCwxOC44NjcgYzAsMC43NjItMC40MTgsMS40NjYtMS4wOTcsMS44NDdjLTMuMzU1LDEuODgzLTEzLjQ1MSw3LjU1MS0xNi44MDcsOS40MzRjLTAuNjc5LDAuMzgxLTEuNTE1LDAuMzgxLTIuMTkzLDAgYy0zLjM1NS0xLjg4My0xMy40NTEtNy41NTEtMTYuODA3LTkuNDM0QzUuNDE4LDM0Ljg5OSw1LDM0LjE5Niw1LDMzLjQzNGMwLTMuNzY2LDAtMTUuMTAxLDAtMTguODY3IGMwLTAuNzYyLDAuNDE4LTEuNDY2LDEuMDk3LTEuODQ3QzkuNDUxLDEwLjgzNywxOS41NDksNS4xNjksMjIuOTAzLDMuMjg2eiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PHBhdGggZmlsbD0iIzAwODZkNCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNS4zMDQsMzQuNDA0QzUuMDM4LDM0LjA0OCw1LDMzLjcxLDUsMzMuMjU1IGMwLTMuNzQ0LDAtMTUuMDE0LDAtMTguNzU5YzAtMC43NTgsMC40MTctMS40NTgsMS4wOTQtMS44MzZjMy4zNDMtMS44NzIsMTMuNDA1LTcuNTA3LDE2Ljc0OC05LjM4IGMwLjY3Ny0wLjM3OSwxLjU5NC0wLjM3MSwyLjI3MSwwLjAwOGMzLjM0MywxLjg3MiwxMy4zNzEsNy40NTksMTYuNzE0LDkuMzMxYzAuMjcsMC4xNTIsMC40NzYsMC4zMzUsMC42NiwwLjU3Nkw1LjMwNCwzNC40MDR6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48cGF0aCBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yNCwxMGM3LjcyNywwLDE0LDYuMjczLDE0LDE0cy02LjI3MywxNC0xNCwxNCBzLTE0LTYuMjczLTE0LTE0UzE2LjI3MywxMCwyNCwxMHogTTI0LDE3YzMuODYzLDAsNywzLjEzNiw3LDdjMCwzLjg2My0zLjEzNyw3LTcsN3MtNy0zLjEzNy03LTdDMTcsMjAuMTM2LDIwLjEzNiwxNywyNCwxN3oiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGZpbGw9IiMwMDc1YzAiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQyLjQ4NSwxMy4yMDVjMC41MTYsMC40ODMsMC41MDYsMS4yMTEsMC41MDYsMS43ODQgYzAsMy43OTUtMC4wMzIsMTQuNTg5LDAuMDA5LDE4LjM4NGMwLjAwNCwwLjM5Ni0wLjEyNywwLjgxMy0wLjMyMywxLjEyN0wyMy41OTMsMjRMNDIuNDg1LDEzLjIwNXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGZpbGw9IiNmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMxIDIxSDMzVjI3SDMxek0zOCAyMUg0MFYyN0gzOHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGZpbGw9IiNmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTI5IDIzSDM1VjI1SDI5ek0zNiAyM0g0MlYyNUgzNnoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==') 50% 50% no-repeat;
-    background-size: 100%;
-   }
+@keyframes animate-path1 {
+  100% {
+    stroke-dashoffset: 50;
+  }
+}
+
+@keyframes animate-path2 {
+  100% {
+    stroke-dashoffset: 175;
+  }
+}
+
+@keyframes animate-path3 {
+  100% {
+    stroke-dashoffset: 125;
+  }
+}
+
+@keyframes animate-path4 {
+  100% {
+    stroke-dashoffset: 200;
+  }
+}
+
+.icons8-c {
+  display: inline-block;
+  width: 30px;
+  height: 40px;
+  background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgNDggNDgiIHdpZHRoPSI0OHB4IiBoZWlnaHQ9IjQ4cHgiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjMDA1NDlkIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMi45MDMsMy4yODZjMC42NzktMC4zODEsMS41MTUtMC4zODEsMi4xOTMsMCBjMy4zNTUsMS44ODMsMTMuNDUxLDcuNTUxLDE2LjgwNyw5LjQzNEM0Mi41ODIsMTMuMSw0MywxMy44MDQsNDMsMTQuNTY2YzAsMy43NjYsMCwxNS4xMDEsMCwxOC44NjcgYzAsMC43NjItMC40MTgsMS40NjYtMS4wOTcsMS44NDdjLTMuMzU1LDEuODgzLTEzLjQ1MSw3LjU1MS0xNi44MDcsOS40MzRjLTAuNjc5LDAuMzgxLTEuNTE1LDAuMzgxLTIuMTkzLDAgYy0zLjM1NS0xLjg4My0xMy40NTEtNy41NTEtMTYuODA3LTkuNDM0QzUuNDE4LDM0Ljg5OSw1LDM0LjE5Niw1LDMzLjQzNGMwLTMuNzY2LDAtMTUuMTAxLDAtMTguODY3IGMwLTAuNzYyLDAuNDE4LTEuNDY2LDEuMDk3LTEuODQ3QzkuNDUxLDEwLjgzNywxOS41NDksNS4xNjksMjIuOTAzLDMuMjg2eiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PHBhdGggZmlsbD0iIzAwODZkNCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNS4zMDQsMzQuNDA0QzUuMDM4LDM0LjA0OCw1LDMzLjcxLDUsMzMuMjU1IGMwLTMuNzQ0LDAtMTUuMDE0LDAtMTguNzU5YzAtMC43NTgsMC40MTctMS40NTgsMS4wOTQtMS44MzZjMy4zNDMtMS44NzIsMTMuNDA1LTcuNTA3LDE2Ljc0OC05LjM4IGMwLjY3Ny0wLjM3OSwxLjU5NC0wLjM3MSwyLjI3MSwwLjAwOGMzLjM0MywxLjg3MiwxMy4zNzEsNy40NTksMTYuNzE0LDkuMzMxYzAuMjcsMC4xNTIsMC40NzYsMC4zMzUsMC42NiwwLjU3Nkw1LjMwNCwzNC40MDR6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48cGF0aCBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yNCwxMGM3LjcyNywwLDE0LDYuMjczLDE0LDE0cy02LjI3MywxNC0xNCwxNCBzLTE0LTYuMjczLTE0LTE0UzE2LjI3MywxMCwyNCwxMHogTTI0LDE3YzMuODYzLDAsNywzLjEzNiw3LDdjMCwzLjg2My0zLjEzNyw3LTcsN3MtNy0zLjEzNy03LTdDMTcsMjAuMTM2LDIwLjEzNiwxNywyNCwxN3oiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGZpbGw9IiMwMDc1YzAiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQyLjQ4NSwxMy4yMDVjMC41MTYsMC40ODMsMC41MDYsMS4yMTEsMC41MDYsMS43ODQgYzAsMy43OTUtMC4wMzIsMTQuNTg5LDAuMDA5LDE4LjM4NGMwLjAwNCwwLjM5Ni0wLjEyNywwLjgxMy0wLjMyMywxLjEyN0wyMy41OTMsMjRMNDIuNDg1LDEzLjIwNXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGZpbGw9IiNmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMxIDIxSDMzVjI3SDMxek0zOCAyMUg0MFYyN0gzOHoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGZpbGw9IiNmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTI5IDIzSDM1VjI1SDI5ek0zNiAyM0g0MlYyNUgzNnoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==') 50% 50% no-repeat;
+  background-size: 100%;
+}
